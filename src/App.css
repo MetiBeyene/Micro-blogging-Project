@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container {
+  align-items: center;
+}
+
+.textarea {
+  border: 2px solid blue;
+  width: 50vw;
+  height: 25vh;
+  margin-top: 20px;
+}
+.Notes {
+  padding: 0px;
+}
+.lists {
+  list-style-type: none;
+}
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: blue;
+  font-weight: bold;
+  margin: 20px;
+  color: white;
+}
+.noteLists {
+  margin: 20px;
+  max-width: 50vw;
+  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(87, 80, 80, 0.2),
+    0 6px 20px 0 rgba(77, 71, 71, 0.19);
+  border-radius: 5px;
+  overflow: wrap;
+}
+
+.date {
+  color: lightgray;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  width: 100%;
+  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.navContent {
+  padding: 20px;
+  margin: 20px;
+  display: inline;
+}
+
+.navHolder {
+  width: 90vw;
+  margin: 0;
+}
+
+.ProfileForm {
+  background-color: gray;
+}
+
+.userNote {
+  padding: 5px;
+  margin: 10px;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+.textarea-container button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
